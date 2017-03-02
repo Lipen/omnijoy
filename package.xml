@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>omnijoy</name>
+  <version>0.0.0</version>
+  <description>The omnijoy package</description>
+
+  <maintainer email="lipen00@gmail.com">Lipen</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="lipen00@gmail.com">Lipen</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>
