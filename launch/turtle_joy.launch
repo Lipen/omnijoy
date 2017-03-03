@@ -12,8 +12,9 @@
 	<param name="axis_linear" value="1" type="int"/>
 	<param name="axis_angular" value="0" type="int"/>
 	 <!-- Scales -->
-	<param name="scale_linear" value="2" type="double"/>
-	<param name="scale_angular" value="2" type="double"/>
+	<param name="scale_left" value="2" type="double"/>
+	<param name="scale_right" value="2" type="double"/>
+	<param name="scale_cross" value="2" type="double"/>
 
 	 <!-- omnijoy node -->
 	<node pkg="omnijoy" type="turtle_teleop_joy" name="teleop"/>
