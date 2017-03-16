@@ -49,6 +49,12 @@ void TeleopTurtle::joyCallback(const sensor_msgs::Joy::ConstPtr& joy) {
     geometry_msgs::Twist twist;
     twist.linear.x = -scale_right_ * js_right_x;
     twist.linear.y = scale_right_ * js_right_y;
+    // twist.linear.x = -scale_left_ * js_left_x;
+    twist.angular.z = scale_left_ * js_left_x;
+
+    // twist.linear.x = scale_cross_ * js_cross_y;
+    // twist.angular.z = scale_cross_ * js_cross_x;
+
 
     vel_pub_.publish(twist);
 }
